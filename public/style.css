@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+body{
+    text-align: center;
+    background-color: rgba(0, 128, 0, 0.2);
+}
+ 
+.header-txt{
+    margin-top: 50px;
+}
+ 
+.cal-fild{
+    width: 500px;
+    height: 600px;
+    background-color: brown;
+    /* border: 2px solid;   Will erase the border */
+    margin: 10% auto;
+    position: relative;
+}
+.num-fild{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(204, 204, 0); /*Will change the background-color*/
+    position: absolute;
+    bottom: 0;
+}
+ 
+ table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 500px;
+    height: 77px;
+} 
+.signs{
+    background-color: rgb(204,102,0);
+}
+.res-show{
+    position: absolute;
+    right: 0;
+    margin-top: 130px; 
+ 
+}
